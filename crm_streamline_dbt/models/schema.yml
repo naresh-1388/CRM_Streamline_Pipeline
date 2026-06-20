@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: dim_customers
+
+    columns:
+      - name: CUSTOMER_ID
+        tests:
+          - unique
+          - not_null
+
+      - name: EMAIL
+        tests:
+          - not_null

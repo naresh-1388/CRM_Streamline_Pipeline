@@ -1,0 +1,13 @@
+.env
+
+contacts.json
+
+venv/
+apienv/
+
+__pycache__/
+
+target/
+logs/
+
+*.pyc
